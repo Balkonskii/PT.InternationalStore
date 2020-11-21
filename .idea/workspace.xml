@@ -20,19 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114cec62-ef02-4f80-a35c-68b12da76661" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/shared/helpers/currency-value.helper.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/currencies-rates/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currencies-rates/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/currencies-rates/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currencies-rates/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/currency/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currency/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/currency/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currency/reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/user/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/user/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/user/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/user/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,7 +93,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605953064043</updated>
-      <workItem from="1605953065409" duration="1079000" />
+      <workItem from="1605953065409" duration="2474000" />
     </task>
     <servers />
   </component>
@@ -124,5 +116,25 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605953677480" />
+    <state width="1837" height="162" key="GridCell.Tab.0.bottom" timestamp="1605955104343">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="162" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605955104343" />
+    <state width="1837" height="162" key="GridCell.Tab.0.center" timestamp="1605955104343">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="162" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605955104343" />
+    <state width="1837" height="162" key="GridCell.Tab.0.left" timestamp="1605955104343">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="162" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605955104343" />
+    <state width="1837" height="162" key="GridCell.Tab.0.right" timestamp="1605955104343">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state width="1837" height="162" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605955104343" />
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1605954869812">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605954869812" />
   </component>
 </project>

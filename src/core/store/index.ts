@@ -8,7 +8,7 @@ export const rootReducer = combineReducers({
     goodsState: goodsReducer,
     userState: userReducer,
     currenciesState: currenciesReducer,
-    currenciesRates: currenciesRatesReducer
+    currenciesRatesState: currenciesRatesReducer
 });
 
 export type RootState = ReturnType<typeof rootReducer>;

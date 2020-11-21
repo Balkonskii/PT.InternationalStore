@@ -1,6 +1,7 @@
 import { IGoodsItem } from '../../models/goods-item';
 import { UniqueIdHelper } from '../../../core/helpers/unique-id.helper';
 import { GoodsActions, UPDATE_GOODS_ITEM } from './actions';
+import { CurrencyValueHelper } from '../../../shared/helpers/currency-value.helper';
 
 export interface IGoodsState {
     items: Array<IGoodsItem>;
@@ -12,7 +13,7 @@ const initialState: IGoodsState = {
         imageLink: 'https://picsum.photos/200' + '?q=' + UniqueIdHelper.generateId(),
         name: 'item1',
         priceBaseCurrency: 'USD',
-        price: Math.round((Math.random() * 1000 + Number.EPSILON) * 100) / 100
+        price: CurrencyValueHelper.round(((Math.random() * 1000 + Number.EPSILON) * 100) / 100)
     }))
 };
 
