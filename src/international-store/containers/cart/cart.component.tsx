@@ -37,11 +37,13 @@ class CartComponentInternal extends Component<Props, IState> {
             };
         });
 
-        console.log(cartItems);
+        const amount = CartHelper.calculateCartAmount(cartItems, nextProps.user);
+
+        console.log('goal:', amount);
 
         return {
             items: cartItems,
-            amount: CartHelper.calculateCartAmount(cartItems, nextProps.user)
+            amount: amount
         };
     }
 
