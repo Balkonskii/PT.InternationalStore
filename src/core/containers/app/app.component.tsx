@@ -12,6 +12,8 @@ import { rootReducer } from '../../store';
 import { Provider } from 'react-redux';
 import { preserveCurrencies } from '../../store/currency/actions';
 import { defaultCurrencies } from '../../../shared/defaults/default-currencies';
+import { CurrencyRatesApi } from '../../../shared/api/currency-rates.api';
+import { ICurrenciesRatesInfo } from '../../../shared/models/currencies-rates-info';
 
 export class AppComponent extends Component {
     readonly abortController = AbortControllerHelper.createController();
@@ -63,6 +65,15 @@ export class AppComponent extends Component {
                 </Router>
             </Provider>
         );
+    }
+
+    private async loadCurrenciesRatesAsync(): Promise<void> {
+        try {
+            const response = await CurrencyRatesApi.loadRatesAsync();
+            const result =
+        } catch (e) {
+            console.error(e);
+        }
     }
 }
 
