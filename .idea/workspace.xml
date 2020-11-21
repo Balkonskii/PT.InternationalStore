@@ -20,30 +20,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="114cec62-ef02-4f80-a35c-68b12da76661" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/international-store/models/cart-amount.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/models/product.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/redux/cart/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/redux/cart/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/redux/products/reducer.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/helpers/cart.helper.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/models/cart-item-price.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/models/cart-item.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/redux/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/components/store-item/store-item.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/components/store-item/store-item.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/containers/cart/cart.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/cart/cart.component.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/international-store/containers/cart/cart.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/cart/cart.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/store/store.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/store/store.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/models/store-item.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/store/goods/actions.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/helpers/currency-value.helper.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/helpers/currency-value.helper.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/store/currencies-rates/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/redux/currencies-rates/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/store/currencies-rates/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/redux/currencies-rates/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/store/currency/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/redux/currency/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/store/currency/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/redux/currency/reducer.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/store/user/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/redux/user/actions.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/store/user/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/redux/user/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/models/cart-amount.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/models/cart-amount.ts" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -114,7 +97,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605953064043</updated>
-      <workItem from="1605953065409" duration="5528000" />
+      <workItem from="1605953065409" duration="7539000" />
     </task>
     <servers />
   </component>
@@ -137,22 +120,22 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605953677480" />
-    <state width="1837" height="144" key="GridCell.Tab.0.bottom" timestamp="1605957789373">
+    <state width="1837" height="208" key="GridCell.Tab.0.bottom" timestamp="1605960375535">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="144" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605957789373" />
-    <state width="1837" height="144" key="GridCell.Tab.0.center" timestamp="1605957789372">
+    <state width="1837" height="208" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605960375535" />
+    <state width="1837" height="208" key="GridCell.Tab.0.center" timestamp="1605960375535">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="144" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605957789372" />
-    <state width="1837" height="144" key="GridCell.Tab.0.left" timestamp="1605957789372">
+    <state width="1837" height="208" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605960375535" />
+    <state width="1837" height="208" key="GridCell.Tab.0.left" timestamp="1605960375535">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="144" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605957789372" />
-    <state width="1837" height="144" key="GridCell.Tab.0.right" timestamp="1605957789373">
+    <state width="1837" height="208" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605960375535" />
+    <state width="1837" height="208" key="GridCell.Tab.0.right" timestamp="1605960375535">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="144" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605957789373" />
+    <state width="1837" height="208" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605960375535" />
     <state x="636" y="273" width="585" height="534" key="find.popup" timestamp="1605957576415">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

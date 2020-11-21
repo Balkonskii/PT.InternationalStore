@@ -1,0 +1,29 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    min-width: 320px;
+  }
+
+  &__item {
+    display: flex;
+  }
+
+  &__item-name {
+    flex: 1;
+  }
+
+  &__item-price {
+    font-weight: 500;
+  }
+
+  &__total {
+    justify-content: end;
+    font-weight: 500;
+    text-align: right;
+  }
+}
