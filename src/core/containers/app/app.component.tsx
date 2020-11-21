@@ -10,6 +10,8 @@ import { NavContainerComponent } from '../../../shared/containers/nav-container/
 import { createStore } from 'redux';
 import { rootReducer } from '../../store';
 import { Provider } from 'react-redux';
+import { preserveCurrencies } from '../../store/currency/actions';
+import { defaultCurrencies } from '../../../shared/defaults/default-currencies';
 
 export class AppComponent extends Component {
     readonly abortController = AbortControllerHelper.createController();
@@ -22,6 +24,8 @@ export class AppComponent extends Component {
 
     constructor(props: any) {
         super(props);
+
+        this.store.dispatch(preserveCurrencies(defaultCurrencies));
     }
 
     componentWillUnmount(): void {

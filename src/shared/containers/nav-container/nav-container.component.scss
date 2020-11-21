@@ -1,0 +1,11 @@
+.international-store-navbar {
+  &__currency {
+    display: flex;
+    margin-left: 50px;
+  }
+
+  &__select {
+    margin-left: 4px;
+    min-width: 200px;
+  }
+}
