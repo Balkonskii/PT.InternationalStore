@@ -14,20 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e7e1911-89b7-4ace-9a12-0c1a03b7bb38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/store/currency/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/store/currency/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/store/user/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/core/store/user/reducer.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/defaults/default-currencies.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/currency-code.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/currency.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/option-type.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/shared/models/user.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/api/currency-rates.api.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/shared/dto/currencies-rates-response-dto.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/store/index.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +112,7 @@
       <workItem from="1605774188879" duration="1866000" />
       <workItem from="1605932613191" duration="5000" />
       <workItem from="1605933064113" duration="4134000" />
-      <workItem from="1605937281874" duration="12706000" />
+      <workItem from="1605937281874" duration="13574000" />
     </task>
     <servers />
   </component>
