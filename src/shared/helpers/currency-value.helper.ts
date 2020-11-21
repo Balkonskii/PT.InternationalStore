@@ -3,10 +3,14 @@ import { CurrenciesRates } from '../models/currencies-rates';
 
 export class CurrencyValueHelper {
     static round(value: number): number {
-        return Math.round((value + Number.EPSILON) * 100) / 100;
+        return Math.round(value * 100) / 100;
     }
 
     static convert(value: number, from: CurrencyCode, to: CurrencyCode, rates: CurrenciesRates): number {
+        if (from === to) {
+            return value;
+        }
+
         const fromRate = rates[from];
         const toRate = rates[to];
 

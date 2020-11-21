@@ -4,8 +4,8 @@ import { Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
 import Select, { ValueType } from 'react-select';
 import { IOptionType } from '../../models/option-type';
-import { RootState } from '../../../core/store';
-import { updateSelectedCurrency } from '../../store/user/actions';
+import { RootState } from '../../../core/redux';
+import { updateSelectedCurrency } from '../../redux/user/actions';
 import { connect, ConnectedProps } from 'react-redux';
 import { CurrencyCode } from '../../models/currency-code';
 
@@ -62,7 +62,7 @@ class NavContainerComponentInternal extends Component<Props, IState> {
         return (
             <Navbar bg='dark' variant='dark' sticky='top' className={'international-store-navbar'}>
                 <Nav>
-                    <Nav.Link as={Link} to={'/goods'}>Goods</Nav.Link>
+                    <Nav.Link as={Link} to={'/store'}>Goods</Nav.Link>
                     <Nav.Link as={Link} to={'/cart'}>Cart</Nav.Link>
                     <div className={'international-store-navbar__currency'}>
                         <Navbar.Text>Select currency: </Navbar.Text>

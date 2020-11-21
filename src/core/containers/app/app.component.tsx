@@ -4,18 +4,18 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Redirect, Route, Switch } from 'react-router-dom';
 import { AbortControllerHelper } from '../../helpers/abort-controller.helper';
 import { NotFoundComponent } from '../../../shared/components/not-found/not-found.component';
-import { GoodsComponent } from '../../../international-store/containers/goods/goods.component';
+import { StoreComponent } from '../../../international-store/containers/store/store.component';
 import { CartComponent } from '../../../international-store/containers/cart/cart.component';
 import { NavContainerComponent } from '../../../shared/containers/nav-container/nav-container.component';
 import { createStore } from 'redux';
-import { rootReducer } from '../../store';
+import { rootReducer } from '../../redux';
 import { Provider } from 'react-redux';
-import { preserveCurrencies } from '../../../shared/store/currency/actions';
+import { preserveCurrencies } from '../../../shared/redux/currency/actions';
 import { defaultCurrencies } from '../../../shared/defaults/default-currencies';
 import { CurrencyRatesApi } from '../../../shared/api/currency-rates.api';
 import { ICurrenciesRatesInfo } from '../../../shared/models/currencies-rates-info';
 import { CurrenciesRatesInfoMapper } from '../../../shared/mappers/currencies-rates-info.mapper';
-import { preserveCurrenciesRates } from '../../../shared/store/currencies-rates/actions';
+import { preserveCurrenciesRates } from '../../../shared/redux/currencies-rates/actions';
 
 export class AppComponent extends Component {
     readonly abortController = AbortControllerHelper.createController();
@@ -48,11 +48,11 @@ export class AppComponent extends Component {
                             <div className={'app__content'}>
                                 <Switch>
                                     <Route exact path='/'>
-                                        <Redirect to='/goods'/>
+                                        <Redirect to='/store'/>
                                     </Route>
 
-                                    <Route exact path='/goods'
-                                           render={(props) => <GoodsComponent {...props}/>}
+                                    <Route exact path='/store'
+                                           render={(props) => <StoreComponent {...props}/>}
                                     />
 
                                     <Route exact path='/cart'

@@ -7,7 +7,7 @@ export interface IUserState {
 
 const initialState: IUserState = {
     user: {
-        selectedCurrency: 'RUB',
+        selectedCurrency: 'USD',
         allowedCurrencies: [
             'EUR',
             'GBP',

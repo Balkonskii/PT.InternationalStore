@@ -1,10 +1,9 @@
 import { CurrencyCode } from '../../shared/models/currency-code';
 
-export interface IGoodsItem {
+export interface IProduct {
     id: string;
     name: string;
-    priceBaseCurrency: CurrencyCode;
+    priceCurrency: CurrencyCode;
     price: number;
     imageLink: string;
-    isSelected?: boolean;
 }
