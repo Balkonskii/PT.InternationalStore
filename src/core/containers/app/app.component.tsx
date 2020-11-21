@@ -7,9 +7,18 @@ import { NotFoundComponent } from '../../../shared/components/not-found/not-foun
 import { GoodsComponent } from '../../../international-store/containers/goods/goods.component';
 import { CartComponent } from '../../../international-store/containers/cart/cart.component';
 import { NavContainerComponent } from '../../../shared/containers/nav-container/nav-container.component';
+import { createStore } from 'redux';
+import { rootReducer } from '../../store';
+import { Provider } from 'react-redux';
 
 export class AppComponent extends Component {
     readonly abortController = AbortControllerHelper.createController();
+
+    readonly store = createStore(
+        rootReducer,
+        // @ts-ignore: enable redux devtools chrome extension
+        window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()
+    );
 
     constructor(props: any) {
         super(props);
@@ -21,27 +30,34 @@ export class AppComponent extends Component {
 
     render() {
         return (
-            <Router>
-                <div className={'app__layout'}>
-                    <NavContainerComponent/>
-                    <div className={'app__content-wrapper'}>
-                        <div className={'app__content'}>
-                            <Switch>
-                                <Route exact path='/'>
-                                    <Redirect to='/goods'/>
-                                </Route>
+            <Provider store={this.store}>
+                <Router>
+                    <div className={'app__layout'}>
+                        <NavContainerComponent/>
+                        <div className={'app__content-wrapper'}>
+                            <div className={'app__content'}>
+                                <Switch>
+                                    <Route exact path='/'>
+                                        <Redirect to='/goods'/>
+                                    </Route>
 
-                                <Route exact path='/goods' component={GoodsComponent}/>
-                                <Route exact path='/cart' component={CartComponent}/>
+                                    <Route exact path='/goods'
+                                           render={(props) => <GoodsComponent {...props}/>}
+                                    />
 
-                                <Route path='*' component={NotFoundComponent}>
-                                    <Redirect to='/not-found'/>
-                                </Route>
-                            </Switch>
+                                    <Route exact path='/cart'
+                                           render={(props) => <CartComponent {...props}/>}
+                                    />
+
+                                    <Route path='*' component={NotFoundComponent}>
+                                        <Redirect to='/not-found'/>
+                                    </Route>
+                                </Switch>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </Router>
+                </Router>
+            </Provider>
         );
     }
 }

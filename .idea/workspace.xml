@@ -14,8 +14,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e7e1911-89b7-4ace-9a12-0c1a03b7bb38" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/core/store/index.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/store/goods/actions.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,9 +35,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="TypeScript File" />
-        <option value="SCSS File" />
         <option value="TypeScript JSX File" />
+        <option value="SCSS File" />
+        <option value="TypeScript File" />
       </list>
     </option>
   </component>
@@ -35,7 +45,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hGl5ke3fDPf3N6cnVq5JOqCqM1" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,6 +64,7 @@
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
     <property name="ts.external.directory.path" value="E:\dev\my\PT.InternationalStore\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -108,7 +121,7 @@
       <workItem from="1605774188879" duration="1866000" />
       <workItem from="1605932613191" duration="5000" />
       <workItem from="1605933064113" duration="4134000" />
-      <workItem from="1605937281874" duration="432000" />
+      <workItem from="1605937281874" duration="5560000" />
     </task>
     <servers />
   </component>
@@ -132,26 +145,30 @@
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
     <state x="648" y="342" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605937303091" />
-    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605933737097">
+    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605941672743">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605933737097" />
-    <state width="1837" height="187" key="GridCell.Tab.0.bottom" timestamp="1605937233451">
+    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605941672743" />
+    <state width="1837" height="187" key="GridCell.Tab.0.bottom" timestamp="1605940550435">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="187" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605937233451" />
-    <state width="1837" height="187" key="GridCell.Tab.0.center" timestamp="1605937233451">
+    <state width="1837" height="187" key="GridCell.Tab.0.bottom/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605940550435" />
+    <state width="1837" height="187" key="GridCell.Tab.0.center" timestamp="1605940550434">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="187" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605937233451" />
-    <state width="1837" height="187" key="GridCell.Tab.0.left" timestamp="1605937233450">
+    <state width="1837" height="187" key="GridCell.Tab.0.center/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605940550434" />
+    <state width="1837" height="187" key="GridCell.Tab.0.left" timestamp="1605940550434">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="187" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605937233450" />
-    <state width="1837" height="187" key="GridCell.Tab.0.right" timestamp="1605937233451">
+    <state width="1837" height="187" key="GridCell.Tab.0.left/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605940550434" />
+    <state width="1837" height="187" key="GridCell.Tab.0.right" timestamp="1605940550435">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>
-    <state width="1837" height="187" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605937233451" />
+    <state width="1837" height="187" key="GridCell.Tab.0.right/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605940550435" />
+    <state x="430" y="185" key="SettingsEditor" timestamp="1605939188418">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="430" y="185" key="SettingsEditor/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605939188418" />
     <state x="636" y="273" width="585" height="534" key="find.popup" timestamp="1605935259422">
       <screen x="0" y="0" width="1858" height="1080" />
     </state>

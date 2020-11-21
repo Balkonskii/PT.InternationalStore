@@ -1,0 +1,23 @@
+.goods-item {
+  min-width: 200px;
+  border: 2px solid lightgrey;
+  border-radius: 4px;
+  padding: 2px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  cursor: pointer;
+
+  &.--is-selected {
+    border-color: blue;
+  }
+
+  &__image {
+    width: 200px;
+    height: 200px;
+  }
+
+  &__label {
+    font-weight: 500;
+    margin-right: 4px;
+  }
+}
