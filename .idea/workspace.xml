@@ -14,18 +14,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4e7e1911-89b7-4ace-9a12-0c1a03b7bb38" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/core/store/index.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.tsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/store/goods/actions.ts" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/components/goods-item/goods-item.component.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/components/not-found/not-found.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +112,7 @@
       <workItem from="1605774188879" duration="1866000" />
       <workItem from="1605932613191" duration="5000" />
       <workItem from="1605933064113" duration="4134000" />
-      <workItem from="1605937281874" duration="5560000" />
+      <workItem from="1605937281874" duration="5912000" />
     </task>
     <servers />
   </component>

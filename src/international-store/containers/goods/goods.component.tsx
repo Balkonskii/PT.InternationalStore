@@ -24,10 +24,14 @@ class GoodsComponentInternal extends Component<Props> {
         return (
             <div className='goods'>
                 {this.props.items.map(item => (
-                    <GoodsItemComponent key={item.id} {...item}/>
+                    <GoodsItemComponent key={item.id} value={item} onChange={x => this._onItemChanged(x)}/>
                 ))}
             </div>
         );
+    }
+
+    private _onItemChanged(item: IGoodsItem): void {
+        this.props.updateGoodsItem(item);
     }
 }
 
