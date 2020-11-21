@@ -14,6 +14,8 @@ import { preserveCurrencies } from '../../store/currency/actions';
 import { defaultCurrencies } from '../../../shared/defaults/default-currencies';
 import { CurrencyRatesApi } from '../../../shared/api/currency-rates.api';
 import { ICurrenciesRatesInfo } from '../../../shared/models/currencies-rates-info';
+import { CurrenciesRatesInfoMapper } from '../../../shared/mappers/currencies-rates-info.mapper';
+import { preserveCurrenciesRates } from '../../store/currencies-rates/actions';
 
 export class AppComponent extends Component {
     readonly abortController = AbortControllerHelper.createController();
@@ -28,6 +30,8 @@ export class AppComponent extends Component {
         super(props);
 
         this.store.dispatch(preserveCurrencies(defaultCurrencies));
+
+        this.loadCurrenciesRatesAsync();
     }
 
     componentWillUnmount(): void {
@@ -70,7 +74,8 @@ export class AppComponent extends Component {
     private async loadCurrenciesRatesAsync(): Promise<void> {
         try {
             const response = await CurrencyRatesApi.loadRatesAsync();
-            const result =
+            const result = CurrenciesRatesInfoMapper.map(response);
+            this.store.dispatch(preserveCurrenciesRates(result));
         } catch (e) {
             console.error(e);
         }

@@ -13,7 +13,8 @@ const initialState: ICurrenciesRatesState = {
     }
 };
 
-export function currenciesReducer(state: ICurrenciesRatesState = initialState, action: CurrenciesRatesActions): ICurrenciesRatesState {
+export function currenciesRatesReducer(state: ICurrenciesRatesState = initialState, action: CurrenciesRatesActions)
+    : ICurrenciesRatesState {
     switch (action.type) {
         case PRESERVE_CURRENCIES_RATES:
             return {
