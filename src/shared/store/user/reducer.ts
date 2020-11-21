@@ -1,4 +1,4 @@
-import { IUser } from '../../../shared/models/user';
+import { IUser } from '../../models/user';
 import { UPDATE_SELECTED_CURRENCY, UserActions } from './actions';
 
 export interface IUserState {

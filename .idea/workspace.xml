@@ -22,18 +22,37 @@
     <list default="true" id="114cec62-ef02-4f80-a35c-68b12da76661" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/containers/app/app.component.tsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/core/store/currencies-rates/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/store/currencies-rates/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/store/currencies-rates/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currencies-rates/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/store/currencies-rates/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currencies-rates/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/store/currency/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currency/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/store/currency/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/currency/reducer.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/core/store/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/store/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/store/user/actions.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/user/actions.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/store/user/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/store/user/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/containers/goods/goods.component.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/models/goods-item.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/international-store/store/goods/reducer.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/shared/containers/nav-container/nav-container.component.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1kayaq6almiwMvbeSTgdETd3Vwl" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -51,6 +70,11 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="ts.external.directory.path" value="E:\dev\my\PT.InternationalStore\node_modules\typescript\lib" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\dev\my\PT.InternationalStore\src\shared\store" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -77,7 +101,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1605953064043</updated>
-      <workItem from="1605953065409" duration="291000" />
+      <workItem from="1605953065409" duration="1079000" />
     </task>
     <servers />
   </component>
@@ -94,5 +118,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1605953677480">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="659" y="287" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1858.1080/1920.0.1920.1050/3840.309.1366.738@0.0.1858.1080" timestamp="1605953677480" />
   </component>
 </project>

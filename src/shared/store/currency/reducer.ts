@@ -1,4 +1,4 @@
-import { ICurrency } from '../../../shared/models/currency';
+import { ICurrency } from '../../models/currency';
 import { CurrenciesActions, PRESERVE_CURRENCIES } from './actions';
 
 export interface ICurrencyState {

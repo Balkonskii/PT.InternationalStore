@@ -1,4 +1,4 @@
-import { CurrencyCode } from '../../../shared/models/currency-code';
+import { CurrencyCode } from '../../models/currency-code';
 
 export const UPDATE_SELECTED_CURRENCY = 'UPDATE_SELECTED_CURRENCY';
 

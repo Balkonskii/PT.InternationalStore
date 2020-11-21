@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import Select, { ValueType } from 'react-select';
 import { IOptionType } from '../../models/option-type';
 import { RootState } from '../../../core/store';
-import { updateSelectedCurrency } from '../../../core/store/user/actions';
+import { updateSelectedCurrency } from '../../store/user/actions';
 import { connect, ConnectedProps } from 'react-redux';
 import { CurrencyCode } from '../../models/currency-code';
 

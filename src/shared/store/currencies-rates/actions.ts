@@ -1,4 +1,4 @@
-import { ICurrenciesRatesInfo } from '../../../shared/models/currencies-rates-info';
+import { ICurrenciesRatesInfo } from '../../models/currencies-rates-info';
 
 export const PRESERVE_CURRENCIES_RATES = 'PRESERVE_CURRENCIES_RATES';
 

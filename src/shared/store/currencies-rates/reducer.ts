@@ -1,4 +1,4 @@
-import { ICurrenciesRatesInfo } from '../../../shared/models/currencies-rates-info';
+import { ICurrenciesRatesInfo } from '../../models/currencies-rates-info';
 import { CurrenciesRatesActions, PRESERVE_CURRENCIES_RATES } from './actions';
 
 export interface ICurrenciesRatesState {

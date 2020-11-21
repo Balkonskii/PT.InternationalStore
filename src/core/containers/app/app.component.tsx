@@ -10,12 +10,12 @@ import { NavContainerComponent } from '../../../shared/containers/nav-container/
 import { createStore } from 'redux';
 import { rootReducer } from '../../store';
 import { Provider } from 'react-redux';
-import { preserveCurrencies } from '../../store/currency/actions';
+import { preserveCurrencies } from '../../../shared/store/currency/actions';
 import { defaultCurrencies } from '../../../shared/defaults/default-currencies';
 import { CurrencyRatesApi } from '../../../shared/api/currency-rates.api';
 import { ICurrenciesRatesInfo } from '../../../shared/models/currencies-rates-info';
 import { CurrenciesRatesInfoMapper } from '../../../shared/mappers/currencies-rates-info.mapper';
-import { preserveCurrenciesRates } from '../../store/currencies-rates/actions';
+import { preserveCurrenciesRates } from '../../../shared/store/currencies-rates/actions';
 
 export class AppComponent extends Component {
     readonly abortController = AbortControllerHelper.createController();

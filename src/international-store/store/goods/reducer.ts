@@ -7,11 +7,12 @@ export interface IGoodsState {
 }
 
 const initialState: IGoodsState = {
-    items: Array.from({length: 20}).map(() => ({
+    items: Array.from({length: 24}).map(() => ({
         id: UniqueIdHelper.generateId(),
         imageLink: 'https://picsum.photos/200' + '?q=' + UniqueIdHelper.generateId(),
         name: 'item1',
-        price: 100
+        priceBaseCurrency: 'USD',
+        price: Math.round((Math.random() * 1000 + Number.EPSILON) * 100) / 100
     }))
 };
 

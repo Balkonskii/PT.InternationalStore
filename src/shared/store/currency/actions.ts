@@ -1,4 +1,4 @@
-import { ICurrency } from '../../../shared/models/currency';
+import { ICurrency } from '../../models/currency';
 
 export const PRESERVE_CURRENCIES = 'PRESERVE_CURRENCIES';
 
